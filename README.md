@@ -1,2 +1,2 @@
-# Hypsteria
+# Hypsteria Colorscheme for VIM
 
