@@ -78,7 +78,7 @@ hi TabLineFill      ctermbg=243  ctermfg=229   cterm=NONE      guibg=#616c72 gui
 
 hi Error            ctermbg=NONE ctermfg=167   cterm=REVERSE   guibg=NONE    guifg=#db6c6c   gui=REVERSE
 hi Ignore           ctermbg=NONE ctermfg=NONE  cterm=NONE      guibg=NONE    guifg=NONE      gui=NONE
-hi Todo             ctermbg=229  ctermfg=243   cterm=NONE      guibg=#ffebc3 guifg=#616c72   gui=NONE
+hi Todo             ctermbg=229  ctermfg=243   cterm=NONE      guibg=NONE    guifg=#d65cd6   gui=bold
 
 hi NonText          ctermbg=NONE ctermfg=243   cterm=NONE      guibg=NONE    guifg=#616c72   gui=NONE
 
