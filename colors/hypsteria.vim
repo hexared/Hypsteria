@@ -17,7 +17,7 @@ hi Normal           ctermbg=239  ctermfg=229   cterm=NONE      guibg=#21231F gui
 
 hi Comment          ctermbg=NONE ctermfg=243   cterm=NONE      guibg=NONE    guifg=#616c72   gui=NONE
 hi Special          ctermbg=NONE ctermfg=144   cterm=bold      guibg=NONE    guifg=#92bfce   gui=bold
-hi Statement        ctermbg=NONE ctermfg=144   cterm=NONE      guibg=NONE    guifg=#9a8865   gui=NONE
+hi Statement        ctermbg=NONE ctermfg=144   cterm=NONE      guibg=NONE    guifg=#a5d48c   gui=NONE
 hi Type             ctermbg=NONE ctermfg=144   cterm=NONE      guibg=NONE    guifg=#9a8865   gui=NONE
 hi Function         ctermbg=NONE ctermfg=144   cterm=bold      guibg=NONE    guifg=#d16161   gui=bold
 hi PreProc          ctermbg=NONE ctermfg=144   cterm=NONE      guibg=NONE    guifg=#9a8865   gui=NONE
@@ -104,7 +104,7 @@ hi link Include            PreProc
 hi link Keyword            Statement
 hi link Label              Statement
 hi link Macro              PreProc
-hi link Operator           Statement
+hi link Operator           Boolean
 hi link PreCondit          PreProc
 hi link Repeat             Statement
 hi link SpecialChar        Special
@@ -144,6 +144,6 @@ hi link vimNotation        Identifier
 hi link vimBracket         Identifier
 
 " Python specific
-hi link pythonOperator     Statement 
+hi link pythonOperator     Preproc 
 
 hi link QuickFixLine Visual
