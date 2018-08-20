@@ -38,7 +38,7 @@ hi SignColumn       ctermbg=243  ctermfg=NONE  cterm=NONE      guibg=#616c72 gui
 hi Folded           ctermbg=NONE ctermfg=110   cterm=NONE      guibg=NONE    guifg=#7fc1ca   gui=NONE
 hi FoldColumn       ctermbg=NONE ctermfg=110   cterm=NONE      guibg=NONE    guifg=#7fc1ca   gui=NONE
 
-hi Directory        ctermbg=NONE ctermfg=150   cterm=NONE      guibg=NONE    guifg=#a8ce93   gui=NONE
+hi Directory        ctermbg=NONE ctermfg=150   cterm=NONE      guibg=NONE    guifg=#9a8865   gui=NONE
 hi Underlined       ctermbg=NONE ctermfg=NONE  cterm=UNDERLINE guibg=NONE    guifg=NONE      gui=UNDERLINE
 
 hi Visual           ctermbg=110  ctermfg=239   cterm=NONE      guibg=#7fc1ca guifg=#3c4c55   gui=NONE
