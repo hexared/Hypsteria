@@ -13,7 +13,13 @@ darcula and solarized.
 #### VIM Plug:
 - Add
 `Plug 'BrainDeath0/Hypsteria'`
-to your .vimrc
+to your .vimrc (to clone it from GitHub)
+<br>
+
+or:
+- Add
+`Plug 'https://gitlab.com/_kernel_panic/Hypsteria'`
+to your .vimrc (to clone it from GitLab)
 
 <br>
 <hr>

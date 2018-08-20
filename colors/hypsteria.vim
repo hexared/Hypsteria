@@ -16,16 +16,18 @@ set background=dark
 hi Normal           ctermbg=239  ctermfg=229   cterm=NONE      guibg=#21231F guifg=#FFE6B3   gui=NONE
 
 hi Comment          ctermbg=NONE ctermfg=243   cterm=NONE      guibg=NONE    guifg=#616c72   gui=NONE
-hi Special          ctermbg=NONE ctermfg=144   cterm=NONE      guibg=NONE    guifg=#d65c5c   gui=NONE
+hi Special          ctermbg=NONE ctermfg=144   cterm=bold      guibg=NONE    guifg=#92bfce   gui=bold
 hi Statement        ctermbg=NONE ctermfg=144   cterm=NONE      guibg=NONE    guifg=#9a8865   gui=NONE
-hi Type             ctermbg=NONE ctermfg=144   cterm=NONE      guibg=NONE    guifg=#9a8865   gui=NONE
-hi Function         ctermbg=NONE ctermfg=144   cterm=NONE      guibg=NONE    guifg=#d16161   gui=bold
+hi Type             ctermbg=NONE ctermfg=144   cterm=NONE      guibg=NONE    guifg=#3c7768   gui=NONE
+hi Function         ctermbg=NONE ctermfg=144   cterm=bold      guibg=NONE    guifg=#d16161   gui=bold
 hi PreProc          ctermbg=NONE ctermfg=144   cterm=NONE      guibg=NONE    guifg=#9a8865   gui=NONE
 
 hi Identifier       ctermbg=NONE ctermfg=150   cterm=NONE      guibg=NONE    guifg=#a5d48c   gui=NONE
 hi Constant         ctermbg=NONE ctermfg=150   cterm=NONE      guibg=NONE    guifg=#a8ce93   gui=NONE
 hi Boolean          ctermbg=NONE ctermfg=150   cterm=NONE      guibg=NONE    guifg=#d65c5c   gui=NONE
-hi String           ctermbg=NONE ctermfg=150   cterm=NONE      guibg=NONE    guifg=#a8ce93   gui=NONE
+hi String           ctermbg=NONE ctermfg=150   cterm=NONE      guibg=NONE    guifg=#92bfce   gui=NONE
+hi Character        ctermbg=NONE ctermfg=150   cterm=NONE      guibg=NONE    guifg=#92bfce   gui=NONE
+hi Number           ctermbg=NONE ctermfg=150   cterm=NONE      guibg=NONE    guifg=#a8ce93   gui=NONE
 hi Title            ctermbg=NONE ctermfg=188   cterm=NONE      guibg=NONE    guifg=#c5d4dd   gui=NONE
 
 hi LineNr           ctermbg=NONE ctermfg=243   cterm=NONE      guibg=NONE    guifg=#616c72   gui=NONE
@@ -78,7 +80,7 @@ hi TabLineFill      ctermbg=243  ctermfg=229   cterm=NONE      guibg=#616c72 gui
 
 hi Error            ctermbg=NONE ctermfg=167   cterm=REVERSE   guibg=NONE    guifg=#db6c6c   gui=REVERSE
 hi Ignore           ctermbg=NONE ctermfg=NONE  cterm=NONE      guibg=NONE    guifg=NONE      gui=NONE
-hi Todo             ctermbg=229  ctermfg=243   cterm=NONE      guibg=NONE    guifg=#d65cd6   gui=bold
+hi Todo             ctermbg=229  ctermfg=243   cterm=underline guibg=NONE    guifg=#c270c2   gui=underline
 
 hi NonText          ctermbg=NONE ctermfg=243   cterm=NONE      guibg=NONE    guifg=#616c72   gui=NONE
 
@@ -89,9 +91,6 @@ hi CursorLine       ctermbg=241  ctermfg=NONE  cterm=NONE      guibg=#4c5866 gui
 hi helpleadblank    ctermbg=NONE ctermfg=NONE  cterm=NONE      guibg=NONE    guifg=NONE      gui=NONE
 hi helpnormal       ctermbg=NONE ctermfg=NONE  cterm=NONE      guibg=NONE    guifg=NONE      gui=NONE
 
-
-hi link Number             Constant
-hi link Character          Constant
 
 hi link Conditional        Statement
 hi link Debug              Special
@@ -105,7 +104,7 @@ hi link Include            PreProc
 hi link Keyword            Statement
 hi link Label              Statement
 hi link Macro              PreProc
-hi link Operator           Statement
+hi link Operator           PreProc
 hi link PreCondit          PreProc
 hi link Repeat             Statement
 hi link SpecialChar        Special
@@ -145,5 +144,6 @@ hi link vimNotation        Identifier
 hi link vimBracket         Identifier
 
 " Python specific
-hi link pythonOperator     Statement 
+hi link pythonOperator     Preproc 
+
 hi link QuickFixLine Visual
