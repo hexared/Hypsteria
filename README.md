@@ -7,7 +7,7 @@ darcula and solarized.
 ---
 
 #### Manual:
-- clone the repo and put the .vim file in the ```~/.vim/colors``` folder  
+- clone the repo and put the ```Hypsteria.vim``` file in the ```~/.vim/colors``` folder  
 
 #### VIM Plug:
 - Add  
@@ -22,4 +22,4 @@ to your .vimrc (if you're more of a GitLab guy)
   
   
 #### Tips:
-Enjoy with coffee.
+- Enjoy with coffee.
