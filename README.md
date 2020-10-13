@@ -1,7 +1,9 @@
 # Hypsteria
 A green-ish low constrast retro' color scheme for VIM inspired by gruvbox, 
 darcula and solarized.  
-  
+
+![Hypsteria Preview](Hypsteria.png)
+> Image from [Vim Colors](https://vimcolors.com)
   
 ### Installation <br>
 ---
